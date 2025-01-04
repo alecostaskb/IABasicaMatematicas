@@ -74,13 +74,14 @@ public class Drive : MonoBehaviour
         float distance = Mathf.Sqrt(Mathf.Pow(destino.transform.position.x - transform.position.x, 2)
                                     + Mathf.Pow(destino.transform.position.y - transform.position.y, 2)
                                     + Mathf.Pow(destino.transform.position.z - transform.position.z, 2));
+
+        //Debug.Log("<" + transform.name.ToUpper() + "> está a " + distance + " de <" + destino.name.ToUpper() + ">");
+        
         // --------------
 
         //// distancia Unity
         //float uDistance = Vector3.Distance(destino.transform.position, transform.position);
 
-        //Debug.Log("<" + transform.name.ToUpper() + "> está a " + distance + " de <" + destino.name.ToUpper() + ">");
-        
         //Debug.Log("Distancia: " + distance);
         //Debug.Log("U Distancia: " + uDistance);
 
